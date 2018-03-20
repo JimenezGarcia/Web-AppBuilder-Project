@@ -1,0 +1,66 @@
+.jimu-panel {
+  border: 0px;
+}
+
+.jimu-widget-frame.jimu-container {
+  padding: 0px;
+}
+
+.iconoFiltro {
+  margin-bottom: 15px;
+  width: 120px;
+}
+
+.bloquePrincipalFiltro {
+  text-align: center;
+  width: 100%;
+  background-color: rgb(72, 85, 102);
+}
+
+.bloqueFiltros {
+  padding: 25px;
+}
+
+.encabezadoFiltro {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/*.inputFiltro {
+  margin-bottom: 15px;
+  width: 100%;
+}*/
+
+.inputFiltro {
+  padding: 10px 20px;
+  display: inline;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80%;
+}
+
+.botonFiltro:hover {
+  background-color: #2d3849;
+  opacity: 0.75;
+}
+
+.botonFiltro {
+  opacity: 1;
+  width: 20%;
+  background-color: #5b6c84;
+  padding: 11px;
+  float: left;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+}
+
+.restaurar {
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.contenedorGlobal {
+  height: 100%;
+}

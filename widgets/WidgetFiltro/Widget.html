@@ -1,0 +1,30 @@
+<div class="contenedorGlobal">
+
+  <div class="bloquePrincipalFiltro">
+
+    <img class="iconoFiltro" src="${folderUrl}images/filtroAnimado.gif" alt="">
+
+  </div>
+
+  <div class="bloqueFiltros">
+    <div class="encabezadoFiltro">Filtro por País</div>
+    <hr>
+    <div>
+      <input class="inputFiltro" type="text" data-dojo-attach-point="inputFiltrar" placeholder="Texto a filtrar por País...">
+      <div class="botonFiltro" data-dojo-attach-point="botonFiltrar" data-dojo-attach-event="onclick: _onClick">Filtrar</div>
+    </div>
+    <br>
+    <div class="encabezadoFiltro">Filtro por Ranking</div>
+    <hr>
+    <div>
+      <input class="inputFiltro" type="text" data-dojo-attach-point="inputFiltrarRank" placeholder="filtrar por Rank...">
+      <div class="botonFiltro" data-dojo-attach-point="botonFiltrarRank" data-dojo-attach-event="onclick: _onClickRank">Filtrar</div>
+    </div>
+  </div>
+
+  <div>
+    <div class="botonFiltro restaurar" data-dojo-attach-point="botonRestaurarFiltros" data-dojo-attach-event="onclick:_onClickRestaurar">Restaurar</div>
+
+  </div>
+
+</div>
